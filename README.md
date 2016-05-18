@@ -1,4 +1,6 @@
-This repo is a demo of [static-site-generator-webpack-plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin). I am inspired by Jxnblk's article ["Static Site Generation With React Aad Webpack"](http://jxnblk.com/writing/posts/static-site-generation-with-react-and-webpack/).
+This repo is a demo of [static-site-generator-webpack-plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin), showing you how to generate a static site with React, React-Router, and Webpack.
+
+It is inspired by Jxnblk's article ["Static Site Generation With React Aad Webpack"](http://jxnblk.com/writing/posts/static-site-generation-with-react-and-webpack/).
 
 ## Usage
 
@@ -15,11 +17,21 @@ $ cd webpack-static-site-demo
 $ npm intall
 ```
 
-Third, generate the static file.
+Third, generate the static files.
 
 ```bash
 $ npm run build
 ```
+
+Now, you should see the static files under the `dist` subdirectory.
+
+Finally, run the server.
+
+```bash
+$ npm start
+```
+
+Visit http://localhost:8080 . You will find it serves a static site, and at the same time has the experience of single page App.
 
 ## Explanation
 
